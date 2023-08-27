@@ -1,14 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using GetIdDoneAPI.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace GetItDone.Controllers
 {
     public class TaskController : Controller
     {
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-
-
-            return View("Index");
+            TaskListViewModel viewModel = new TaskListViewModel();
+            viewModel.Tasks = await viewModel.LoadTasksFromApiAsync();
+            return View(viewModel);
         }
     }
 }

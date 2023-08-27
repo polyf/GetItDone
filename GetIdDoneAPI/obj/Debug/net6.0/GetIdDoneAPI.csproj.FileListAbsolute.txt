@@ -38,6 +38,7 @@ D:\GetIdDoneAPI\GetIdDoneAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\GetIdDoneAPI\GetIdDoneAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\GetIdDoneAPI\GetIdDoneAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\GetIdDoneAPI\GetIdDoneAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\GetIdDoneAPI\GetIdDoneAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\GetIdDoneAPI\GetIdDoneAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\GetIdDoneAPI\GetIdDoneAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\GetIdDoneAPI\GetIdDoneAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

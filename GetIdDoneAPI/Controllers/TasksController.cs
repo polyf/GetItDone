@@ -29,7 +29,6 @@ namespace GetIdDoneAPI.Controllers
         }
 
         [HttpGet]
-
         public async Task<IActionResult> GetAllTasksAsync()
         {
             return Ok(await dbContext.Tasks.ToListAsync());

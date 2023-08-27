@@ -1,10 +1,8 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model GetIdDoneAPI.Models.TaskListViewModel
+
 @{
+    var ModelPage = Model; 
 }
-
-
 <table class="table">
     <thead>
         <tr>
@@ -16,27 +14,16 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <th scope="row"><input type="checkbox"></th>
-            <td>Finish work project</td>
-            <td>Teste</td>
-            <td>Teste</td>
-            <td>IDK</td>
-        </tr>
-        <tr>
-            <th scope="row"><input type="checkbox"></th>
-            <td>Go for a run</td>
-            <td>Thornton</td>
-            <td>IDK</td>
-            <td>IDK</td>
-        </tr>
-        <tr>
-            <th scope="row"><input type="checkbox"></th>
-            <td>Read a book</td>
-            <td>Larry the Bird</td>
-            <td>IDK</td>
-            <td>IDK</td>
-        </tr>
+        @foreach (var task in ModelPage.Tasks)
+        {
+            <tr>
+                <th scope="row"><input type="checkbox"></th>
+                <td>@task.Name</td>
+                <td>@task.Created</td>
+                <td>@task.Edited</td>
+                <td>@task.Status</td>
+            </tr> 
+        }
     </tbody>
 </table>
 

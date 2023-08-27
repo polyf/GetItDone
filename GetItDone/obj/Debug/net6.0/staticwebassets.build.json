@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "c1SS7bB0dzfEBgyHw1wkvcO2qy+yjCr8uf2/2xWqTRY=",
+  "Hash": "7sRFmCTgcn1a+AafGETBL030GxEtJAtGKngjfDYpJ+g=",
   "Source": "GetItDone",
   "BasePath": "_content/GetItDone",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\GetIdDoneAPI\\GetIdDoneAPI\\GetIdDoneAPI.csproj",
+      "Version": 2,
+      "Source": "GetIdDoneAPI",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "GetItDone\\wwwroot",
